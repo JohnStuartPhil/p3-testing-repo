@@ -45,11 +45,8 @@ def determine_if_a_is_the_corrrect_answer():
     if answer.upper() == "A":
         print(f"Well done, {answer} is the correct answer")
         print()
-    elif answer.upper() == "B":
+    elif answer.upper() == "B" or answer.upper() == "C":
         print(f"{answer} is not the correct answer")
-        print()
-    elif answer.upper() == "C":
-        print(f"{answer} is not the correct answer")    
         print()
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
@@ -67,11 +64,8 @@ def determine_if_b_is_the_corrrect_answer():
     if answer.upper() == "B":
         print(f"Well done, {answer} is the correct answer")
         print()
-    elif answer.upper() == "A":
+    elif answer.upper() == "A" or answer.upper() == "C":
         print(f"{answer} is not the correct answer")
-        print()
-    elif answer.upper() == "C":
-        print(f"{answer} is not the correct answer")    
         print()
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
@@ -89,11 +83,8 @@ def determine_if_c_is_the_corrrect_answer():
     if answer.upper() == "C":
         print(f"Well done, {answer} is the correct answer")
         print()
-    elif answer.upper() == "A":
+    elif answer.upper() == "A" or answer.upper() == "B":
         print(f"{answer} is not the correct answer")
-        print()
-    elif answer.upper() == "B":
-        print(f"{answer} is not the correct answer")    
         print()
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
