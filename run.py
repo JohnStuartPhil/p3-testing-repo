@@ -39,14 +39,14 @@ def determine_if_a_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    print(f"You selected {answer}")
+    print(f"You selected {answer.capitalize()}")
     print()
 
     if answer.upper() == "A":
-        print(f"Well done, {answer} is the correct answer")
+        print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
     elif answer.upper() == "B" or answer.upper() == "C":
-        print(f"{answer} is not the correct answer")
+        print(f"{answer.capitalize()} is not the correct answer")
         print()
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
@@ -58,14 +58,14 @@ def determine_if_b_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    print(f"You selected {answer}")
+    print(f"You selected {answer.capitalize()}")
     print()
 
     if answer.upper() == "B":
-        print(f"Well done, {answer} is the correct answer")
+        print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
     elif answer.upper() == "A" or answer.upper() == "C":
-        print(f"{answer} is not the correct answer")
+        print(f"{answer.capitalize()} is not the correct answer")
         print()
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
@@ -77,14 +77,14 @@ def determine_if_c_is_the_corrrect_answer():
     """
     answer = input("Please select an option: A, B or C: ")
     print()
-    print(f"You selected {answer}")
+    print(f"You selected {answer.capitalize()}")
     print()
 
     if answer.upper() == "C":
-        print(f"Well done, {answer} is the correct answer")
+        print(f"Well done, {answer.capitalize()} is the correct answer")
         print()
     elif answer.upper() == "A" or answer.upper() == "B":
-        print(f"{answer} is not the correct answer")
+        print(f"{answer.capitalize()} is not the correct answer")
         print()
     else:
         print(f"{answer} is not an option, please try again and choose an option of A, B or C")
