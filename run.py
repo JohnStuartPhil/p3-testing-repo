@@ -1,5 +1,5 @@
 class Countries:
-    """Lists the countries"""
+    """Defines the options"""
     def __init__(self, number, country, capital, incorrect_1, incorrect_2, a, b, c):
         self.number = number
         self.country = country
