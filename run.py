@@ -39,7 +39,10 @@ def determine_if_a_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    print(f"You selected {answer.capitalize()}")
+    if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+        print(f"You selected {answer.capitalize()}")
+    else:
+        print(f"You selected {answer}")
     print()
 
     if answer.upper() == "A":
@@ -58,7 +61,10 @@ def determine_if_b_is_the_corrrect_answer():
     """
     answer = input("Please select an option of A, B or C: ")
     print()
-    print(f"You selected {answer.capitalize()}")
+    if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+        print(f"You selected {answer.capitalize()}")
+    else:
+        print(f"You selected {answer}")
     print()
 
     if answer.upper() == "B":
@@ -75,9 +81,12 @@ def determine_if_c_is_the_corrrect_answer():
     """
     determines the output once the user has input A/a, B/b, C/c or something else
     """
-    answer = input("Please select an option: A, B or C: ")
+    answer = input("Please select an option of A, B or C: ")
     print()
-    print(f"You selected {answer.capitalize()}")
+    if answer.upper() == "A" or answer.upper() == "B" or answer.upper() == "C":
+        print(f"You selected {answer.capitalize()}")
+    else:
+        print(f"You selected {answer}")
     print()
 
     if answer.upper() == "C":
