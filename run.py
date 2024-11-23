@@ -1,4 +1,13 @@
-print("Welcome to the quiz, press enter to continue")
+print()
+print("Welcome to the Capital cities Quiz, press any key to continue")
+input()
+print()
+print("You shall be asked for the capital of 10 countries")
+print("You shall be given a choice of 3 cities in that country, listed as A, B and C")
+print("Please select either A, B or C")
+print("You shall be advised if that is the correct answer or not")
+print("If you select anything other than A, B or C, you shall be asked to make a choice again until you select A, B or C")
+print("Press any key to continue")
 input()
 
 class Countries:
