@@ -1,3 +1,6 @@
+print("Welcome to the quiz, press enter to continue")
+input()
+
 class Countries:
     """Defines the options"""
     def __init__(self, number, country, capital, incorrect_1, incorrect_2, a, b, c):
