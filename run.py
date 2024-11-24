@@ -22,6 +22,10 @@ class Countries:
         """the question when option C is the correct answer"""
         return f"Question {self.number}: What is the capital of {self.country}?\n\nIs it; {self.a}: {self.incorrect_1}, {self.b}: {self.incorrect_2} or {self.c}: {self.capital}"
     
+    def the_country(self):
+        """"""
+        return f"{self.country}"
+
     def the_capital(self):
         """"""
         return f"{self.capital}"
@@ -144,61 +148,71 @@ print()
 print(question_1.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
-print(question_1.the_capital())
+print(question_1.the_capital(), "is the capital of", question_1.the_country())
+print()
 
 print()
 print(question_2.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
-print(question_2.the_capital())
+print(question_2.the_capital(), "is the capital of", question_2.the_country())
+print()
 
 print()
 print(question_3.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
-print(question_3.the_capital())
+print(question_3.the_capital(), "is the capital of", question_3.the_country())
+print()
 
 print()
 print(question_4.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
-print(question_4.the_capital())
+print(question_4.the_capital(), "is the capital of", question_4.the_country())
+print()
 
 print()
 print(question_5.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
-print(question_5.the_capital())
+print(question_5.the_capital(), "is the capital of", question_5.the_country())
+print()
 
 print()
 print(question_6.question_if_b_is_the_correct_answer())
 print()
 determine_if_b_is_the_corrrect_answer()
-print(question_6.the_capital())
+print(question_6.the_capital(), "is the capital of", question_6.the_country())
+print()
 
 print()
 print(question_7.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
-print(question_7.the_capital())
+print(question_7.the_capital(), "is the capital of", question_7.the_country())
+print()
 
 print()
 print(question_8.question_if_c_is_the_correct_answer())
 print()
 determine_if_c_is_the_corrrect_answer()
-print(question_8.the_capital())
+print(question_8.the_capital(), "is the capital of", question_8.the_country())
+print()
 
 print()
 print(question_9.question_if_b_is_the_correct_answer())
 print()
 determine_if_b_is_the_corrrect_answer()
-print(question_9.the_capital())
+print(question_9.the_capital(), "is the capital of", question_9.the_country())
+print()
 
 print()
 print(question_10.question_if_a_is_the_correct_answer())
 print()
 determine_if_a_is_the_corrrect_answer()
-print(question_10.the_capital())
+print(question_10.the_capital(), "is the capital of", question_10.the_country())
+print()
 
 print()
 print("That is the end of the quiz, thank you for playing")
